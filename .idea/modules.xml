@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/banner/banner.iml" filepath="$PROJECT_DIR$/banner/banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baserecyclerlibrary/baserecyclerlibrary.iml" filepath="$PROJECT_DIR$/baserecyclerlibrary/baserecyclerlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kdbforCashRegister.iml" filepath="$PROJECT_DIR$/kdbforCashRegister.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nahuolibrary/nahuolibrary.iml" filepath="$PROJECT_DIR$/nahuolibrary/nahuolibrary.iml" />
+    </modules>
+  </component>
+</project>

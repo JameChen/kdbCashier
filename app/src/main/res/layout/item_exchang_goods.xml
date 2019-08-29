@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/y5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y50"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_01"
+            style="@style/item_txt_style"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="top|left"
+            android:textSize="15sp"
+            android:text="订单号/手机号/时间" />
+
+
+            <ImageView
+                android:id="@+id/iv_02"
+                android:layout_width="@dimen/x40"
+                android:layout_marginRight="@dimen/x8"
+                android:layout_marginLeft="@dimen/x8"
+                android:layout_height="@dimen/x40"
+                android:src="@drawable/empty_photo"
+                android:text="商品" />
+
+        <TextView
+            android:id="@+id/tv_03"
+            style="@style/item_txt_style"
+            android:layout_weight="2"
+            android:text="款号" />
+
+
+        <TextView
+            android:id="@+id/tv_04"
+            style="@style/item_txt_style"
+            android:layout_weight="1"
+            android:text="颜色" />
+
+        <TextView
+            android:id="@+id/tv_05"
+            style="@style/item_txt_style"
+            android:layout_weight="1"
+            android:text="尺码" />
+
+        <TextView
+            android:id="@+id/tv_06"
+            style="@style/item_txt_style"
+            android:layout_weight="1"
+            android:text="数量" />
+
+        <TextView
+            android:id="@+id/tv_07"
+            style="@style/item_txt_style"
+            android:layout_weight="2"
+            android:text="单价" />
+
+        <EditText
+            android:id="@+id/et_08"
+            style="@style/item_txt_style"
+            android:layout_marginRight="@dimen/x5"
+            android:layout_marginLeft="@dimen/x5"
+            android:layout_weight="2"
+            android:inputType="number"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/tv_09"
+            style="@style/item_txt_style"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn_gray"
+            android:gravity="center"
+            android:paddingBottom="@dimen/y5"
+            android:paddingTop="@dimen/y5"
+            android:text="确定"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

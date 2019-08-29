@@ -1,0 +1,734 @@
+[
+    {
+        "outputFile": "D:\\asfilessave\\kdb_flat\\baserecyclerlibrary\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 327,
+                    "endColumn": 41,
+                    "endOffset": 364
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdb_flat\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 41,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 369,
+                    "endColumn": 36,
+                    "endOffset": 401
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdb_flat\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 97,
+                        "endColumn": 36,
+                        "endOffset": 129
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 406,
+                    "endColumn": 34,
+                    "endOffset": 436
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdb_flat\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 134,
+                        "endColumn": 34,
+                        "endOffset": 164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 441,
+                    "endColumn": 36,
+                    "endOffset": 473
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdb_flat\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 169,
+                        "endColumn": 36,
+                        "endOffset": 201
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 478,
+                    "endColumn": 36,
+                    "endOffset": 510
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdb_flat\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 206,
+                        "endColumn": 36,
+                        "endOffset": 238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 515,
+                    "endColumn": 74,
+                    "endOffset": 585
+                },
+                "from": {
+                    "file": "C:\\Users\\jame\\.android\\build-cache\\853e0457964bff8a93fcc8bba6003226a0f86955\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 500,
+                        "endColumn": 74,
+                        "endOffset": 570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 590,
+                    "endColumn": 36,
+                    "endOffset": 622
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdb_flat\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 243,
+                        "endColumn": 36,
+                        "endOffset": 275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 627,
+                    "endColumn": 36,
+                    "endOffset": 659
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdb_flat\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 36,
+                        "endOffset": 312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 664,
+                    "endColumn": 36,
+                    "endOffset": 696
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdb_flat\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 317,
+                        "endColumn": 36,
+                        "endOffset": 349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 701,
+                    "endColumn": 65,
+                    "endOffset": 762
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdb_flat\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 354,
+                        "endColumn": 65,
+                        "endOffset": 415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 767,
+                    "endColumn": 62,
+                    "endOffset": 825
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdb_flat\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 420,
+                        "endColumn": 62,
+                        "endOffset": 478
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 830,
+                    "endColumn": 61,
+                    "endOffset": 887
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdb_flat\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 483,
+                        "endColumn": 61,
+                        "endOffset": 540
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 892,
+                    "endColumn": 64,
+                    "endOffset": 952
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdb_flat\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 545,
+                        "endColumn": 64,
+                        "endOffset": 605
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 957,
+                    "endColumn": 65,
+                    "endOffset": 1018
+                },
+                "from": {
+                    "file": "C:\\Users\\jame\\.android\\build-cache\\853e0457964bff8a93fcc8bba6003226a0f86955\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 745,
+                        "endColumn": 65,
+                        "endOffset": 806
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1023,
+                    "endColumn": 40,
+                    "endOffset": 1059
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdb_flat\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 610,
+                        "endColumn": 40,
+                        "endOffset": 646
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1064,
+                    "endColumn": 43,
+                    "endOffset": 1103
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdb_flat\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 651,
+                        "endColumn": 43,
+                        "endOffset": 690
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1108,
+                    "endColumn": 50,
+                    "endOffset": 1154
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdb_flat\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 695,
+                        "endColumn": 50,
+                        "endOffset": 741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1159,
+                    "endColumn": 44,
+                    "endOffset": 1199
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdb_flat\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 746,
+                        "endColumn": 44,
+                        "endOffset": 786
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\asfilessave\\kdbforCashRegister\\baserecyclerlibrary\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 327,
+                    "endColumn": 41,
+                    "endOffset": 364
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdbforCashRegister\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 41,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 369,
+                    "endColumn": 36,
+                    "endOffset": 401
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdbforCashRegister\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 97,
+                        "endColumn": 36,
+                        "endOffset": 129
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 406,
+                    "endColumn": 34,
+                    "endOffset": 436
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdbforCashRegister\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 134,
+                        "endColumn": 34,
+                        "endOffset": 164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 441,
+                    "endColumn": 36,
+                    "endOffset": 473
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdbforCashRegister\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 169,
+                        "endColumn": 36,
+                        "endOffset": 201
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 478,
+                    "endColumn": 36,
+                    "endOffset": 510
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdbforCashRegister\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 206,
+                        "endColumn": 36,
+                        "endOffset": 238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 515,
+                    "endColumn": 74,
+                    "endOffset": 585
+                },
+                "from": {
+                    "file": "C:\\Users\\jame\\.android\\build-cache\\15c02e140c645132469be284b16faaa83c545bf9\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 327,
+                        "endColumn": 74,
+                        "endOffset": 397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 590,
+                    "endColumn": 75,
+                    "endOffset": 661
+                },
+                "from": {
+                    "file": "C:\\Users\\jame\\.android\\build-cache\\15c02e140c645132469be284b16faaa83c545bf9\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 402,
+                        "endColumn": 75,
+                        "endOffset": 473
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 666,
+                    "endColumn": 71,
+                    "endOffset": 733
+                },
+                "from": {
+                    "file": "C:\\Users\\jame\\.android\\build-cache\\15c02e140c645132469be284b16faaa83c545bf9\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 478,
+                        "endColumn": 71,
+                        "endOffset": 545
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 738,
+                    "endColumn": 36,
+                    "endOffset": 770
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdbforCashRegister\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 243,
+                        "endColumn": 36,
+                        "endOffset": 275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 775,
+                    "endColumn": 36,
+                    "endOffset": 807
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdbforCashRegister\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 36,
+                        "endOffset": 312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 812,
+                    "endColumn": 36,
+                    "endOffset": 844
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdbforCashRegister\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 317,
+                        "endColumn": 36,
+                        "endOffset": 349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 849,
+                    "endColumn": 65,
+                    "endOffset": 910
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdbforCashRegister\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 354,
+                        "endColumn": 65,
+                        "endOffset": 415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 915,
+                    "endColumn": 62,
+                    "endOffset": 973
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdbforCashRegister\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 420,
+                        "endColumn": 62,
+                        "endOffset": 478
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 978,
+                    "endColumn": 61,
+                    "endOffset": 1035
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdbforCashRegister\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 483,
+                        "endColumn": 61,
+                        "endOffset": 540
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1040,
+                    "endColumn": 64,
+                    "endOffset": 1100
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdbforCashRegister\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 545,
+                        "endColumn": 64,
+                        "endOffset": 605
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1105,
+                    "endColumn": 65,
+                    "endOffset": 1166
+                },
+                "from": {
+                    "file": "C:\\Users\\jame\\.android\\build-cache\\15c02e140c645132469be284b16faaa83c545bf9\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 550,
+                        "endColumn": 65,
+                        "endOffset": 611
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1171,
+                    "endColumn": 40,
+                    "endOffset": 1207
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdbforCashRegister\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 610,
+                        "endColumn": 40,
+                        "endOffset": 646
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1212,
+                    "endColumn": 43,
+                    "endOffset": 1251
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdbforCashRegister\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 651,
+                        "endColumn": 43,
+                        "endOffset": 690
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1256,
+                    "endColumn": 50,
+                    "endOffset": 1302
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdbforCashRegister\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 695,
+                        "endColumn": 50,
+                        "endOffset": 741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1307,
+                    "endColumn": 44,
+                    "endOffset": 1347
+                },
+                "from": {
+                    "file": "D:\\asfilessave\\kdbforCashRegister\\baserecyclerlibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 746,
+                        "endColumn": 44,
+                        "endOffset": 786
+                    }
+                }
+            }
+        ]
+    }
+]

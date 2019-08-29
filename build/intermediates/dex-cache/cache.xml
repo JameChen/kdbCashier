@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\asfilessave\kdbforCashRegister\nahuolibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c9571301713f40a6fffa0a0579c955ebe8334ffc">
+        <dex dex="D:\asfilessave\kdbforCashRegister\app\build\intermediates\pre-dexed\debug\classes_63cbc6dd1ce4ed6312c12800b00d9c4234c9f622.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jame\.android\build-cache\bc3ac71acf8a086504486104fddd272b947492a1\output\jars\libs\mta-android-sdk-3.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e34c1ca89ace4a6aa2e13982fa5559cecab50889">
+        <dex dex="D:\asfilessave\kdbforCashRegister\app\build\intermediates\pre-dexed\release\mta-android-sdk-3.4.2_9fdbe243b73e37ad937b7b4d7f2f85e5b93fab0f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\asfilessave\kdbforCashRegister\nahuolibrary\build\intermediates\bundles\default\libs\android-viewbadger.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a7ff1c1e56907d8243e0f86bca3a26b2b8557825">
+        <dex dex="D:\asfilessave\kdbforCashRegister\app\build\intermediates\pre-dexed\release\android-viewbadger_b7e2ff9da19e328541635a502457457dbdb8ef1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\asfilessave\kdbforCashRegister\banner\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="315337f987f49b1feb3e434eda5520bd8f50ec22">
+        <dex dex="D:\asfilessave\kdbforCashRegister\app\build\intermediates\pre-dexed\debug\classes_e7595c035979b893da0a9e053ac3d8b8d257453e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jame\.android\build-cache\bc3ac71acf8a086504486104fddd272b947492a1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="38071e624a4676405befec71f1254b0d1191321d">
+        <dex dex="D:\asfilessave\kdbforCashRegister\app\build\intermediates\pre-dexed\release\classes_25aa3b0d56aef9e44c21a2599a32d82cb868c5c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\asfilessave\kdbforCashRegister\baserecyclerlibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0a30cff19a8daf8d46945ea7d553f0db8cbe01d0">
+        <dex dex="D:\asfilessave\kdbforCashRegister\app\build\intermediates\pre-dexed\release\classes_d84dd9dc048d051d38ce0a73b2fb3333b97b3fb4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jame\.android\build-cache\15c02e140c645132469be284b16faaa83c545bf9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="D:\asfilessave\kdbforCashRegister\app\build\intermediates\pre-dexed\debug\classes_0cb6c26e54b3e223146ff1e0e67f8c2c16d775fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jame\.android\build-cache\f8c2f3d9eb8dbd593dd352b07884ba8460c4ba46\output\jars\libs\mid-sdk-3.73.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a8c45e9f89db54703d17f64893466774503fa6bc">
+        <dex dex="D:\asfilessave\kdbforCashRegister\app\build\intermediates\pre-dexed\release\mid-sdk-3.73_daa5716878ea43cebaabd3822bc0563433b44461.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jame\.android\build-cache\f8c2f3d9eb8dbd593dd352b07884ba8460c4ba46\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf43e7d7fcbf563a60f6469fd95461ddf3fb6b52">
+        <dex dex="D:\asfilessave\kdbforCashRegister\app\build\intermediates\pre-dexed\release\classes_a1f9ed6a8633f905e0a58353a505b367efb403bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jame\.android\build-cache\dbf892e22bbada1ac573e0efb5a3569472182bad\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="761777f5a3e96d1cc5699ade7bd69fe2265ef19c">
+        <dex dex="D:\asfilessave\kdbforCashRegister\app\build\intermediates\pre-dexed\release\classes_64447da5dda7d4dbb1409e9479e4abef6c0ef3f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\asfilessave\kdbforCashRegister\app\libs\ksoap2-android-assembly-2.5.2-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ccebb2cae2c177d6dd91409a7007806d9aa269b4">
+        <dex dex="D:\asfilessave\kdbforCashRegister\app\build\intermediates\pre-dexed\release\ksoap2-android-assembly-2.5.2-jar-with-dependencies_4d15c2c4a0c9512b39dd91591252fef1c4483826.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\asfilessave\kdbforCashRegister\nahuolibrary\build\intermediates\bundles\default\libs\slidingmenu.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c6a80a79c163a9f33b29c65e829c6e1530ea7f39">
+        <dex dex="D:\asfilessave\kdbforCashRegister\app\build\intermediates\pre-dexed\release\slidingmenu_50a431b3254dd8791b53379b1b178235d4128f63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\asfilessave\kdbforCashRegister\app\libs\jcc-bate-0.7.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7c9410f6468f1fcc879f39f09936a03fdadb86ea">
+        <dex dex="D:\asfilessave\kdbforCashRegister\app\build\intermediates\pre-dexed\release\jcc-bate-0.7.3_2cbbaf6bee7090e542bbcc434f0c43b95f5c1cd4.jar" />
+    </item>
+
+</items>

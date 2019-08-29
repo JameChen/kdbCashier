@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="order_detail_line_margin">25dp</dimen>
+    <dimen name="order_detail_stroke_width">1dp</dimen>
+    <dimen name="order_detail_radius">2dp</dimen>
+    <dimen name="activity_margin">12dp</dimen>
+    <dimen name="top_tab_radius">18dp</dimen>
+    <dimen name="dialog_width">280dp</dimen>
+    <dimen name="fontsize_title_max">20sp</dimen>
+    <dimen name="fontsize_title_min">18sp</dimen>
+    <dimen name="fontsize_title_button_max">18sp</dimen>
+    <dimen name="fontsize_title_button_middle">16sp</dimen>
+    <dimen name="fontsize_title_button_min">14sp</dimen>
+    <dimen name="text_size_xsmall">11sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_xlarge">20sp</dimen>
+    <dimen name="fontsize_content_Large">20sp</dimen>
+    <dimen name="fontsize_content_normal">12sp</dimen>
+    <dimen name="fontsize_content_default">12sp</dimen>
+    <dimen name="fontsize_content_middle">14sp</dimen>
+    <dimen name="fontsize_button_Large">18sp</dimen>
+    <dimen name="fontsize_button_normal">18sp</dimen>
+    <dimen name="fontsize_button_min">16sp</dimen>
+    <dimen name="fontsize_content_small">12sp</dimen>
+</resources>

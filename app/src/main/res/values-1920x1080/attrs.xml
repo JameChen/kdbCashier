@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DropDownView">
+        <attr name="itemArray" format="reference"/>
+        <attr name="canSelect" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="WidgetSettingItem">
+        <attr name="wsiLeftIcon" format="reference" />
+        <attr name="wsiLeftText" format="string" />
+        <attr name="wsiRightIcon" format="reference" />
+        <attr name="wsiRightText" format="string" />
+        <attr name="wsiRightTextIcon" format="reference" />
+        <attr name="wsiShowbottomLine" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="SearchEdit">
+        <attr name="SearchIcon" format="reference" />
+        <attr name="HintText" format="string" />
+        <attr name="SearchIconGravity">
+            <enum name="Left" value="0"></enum>
+            <enum name="Center" value="1"></enum>
+            <enum name="Right" value="2"></enum>
+        </attr>
+        <attr name="CleanIcon" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ViewPagerIndicator">
+        <!-- Style of the tab indicator's tabs. -->
+        <attr name="vpiTabPageIndicatorStyle" format="reference" />
+        <!-- Style of the underline indicator. -->
+        <attr name="vpiUnderlinePageIndicatorStyle" format="reference" />
+        <attr name="my_tabpage_style" format="reference" />
+    </declare-styleable>
+    <attr name="centered" format="boolean" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="unselectedColor" format="color" />
+
+</resources>

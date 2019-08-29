@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/line_bg"
+    android:orientation="vertical"
+    android:paddingTop="15dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_head"
+        android:background="@drawable/bg_item_white_corners"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/tv_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:visibility="gone"
+            android:textColor="@color/kdb_black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="@color/kdb_black"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="退款方式："
+                android:textColor="@color/kdb_black"
+                android:textSize="16sp" />
+
+            <com.yiku.kdb_flat.custom_controls.DropDownView
+                android:id="@+id/tv_sort_type"
+                style="@style/sort_tv_style"
+                android:drawableRight="@drawable/ic_keyboard_arrow_down_blue_grey_400_18dp"
+                android:text="请选择" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="30dp"
+                android:text="经手人："
+                android:textColor="@color/kdb_black"
+                android:textSize="16sp" />
+
+            <com.yiku.kdb_flat.custom_controls.DropDownView
+                android:id="@+id/tv_sort_opt"
+                style="@style/sort_tv_style"
+                android:layout_marginRight="10dp"
+                android:drawableRight="@drawable/ic_keyboard_arrow_down_blue_grey_400_18dp"
+                android:text="请选择" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="退款原因："
+                android:textColor="@color/kdb_black"
+                android:textSize="16sp" />
+
+            <com.yiku.kdb_flat.custom_controls.DropDownView
+                android:id="@+id/tv_sort_reason"
+                style="@style/sort_tv_style"
+                android:layout_marginRight="10dp"
+                android:drawableRight="@drawable/ic_keyboard_arrow_down_blue_grey_400_18dp"
+                android:text="请选择" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/line_bg"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_qty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="成交数量："
+            android:textColor="@color/kdb_black"
+            android:textSize="16sp" />
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1dp"></View>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="退货数量"
+            android:textColor="@color/kdb_black"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

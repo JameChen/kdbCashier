@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/et_txt"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:visibility="visible"/>
+        <View
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/white"></View>
+
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/y30"
+            android:text="应收"
+            android:textColor="@color/kdb_black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_money"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/y30"
+            android:text="请扫描二维码"
+            android:textColor="@color/kdb_black"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/iv_del"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/del_pd_bg"
+            android:gravity="center"
+            android:text="×"
+            android:textColor="@color/bg_red"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="top|right"
+            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginRight="@dimen/x10"
+            android:background="@drawable/order_button_white_bg"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="5dp"
+            android:text="没反应？点击手工同步确认"
+            android:textColor="@color/bg_red"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</LinearLayout>

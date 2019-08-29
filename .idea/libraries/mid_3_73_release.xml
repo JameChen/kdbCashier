@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="mid-3.73-release">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/f8c2f3d9eb8dbd593dd352b07884ba8460c4ba46/output/jars/libs/mid-sdk-3.73.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/f8c2f3d9eb8dbd593dd352b07884ba8460c4ba46/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/f8c2f3d9eb8dbd593dd352b07884ba8460c4ba46/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencent.mid/mid/3.73-release/fede1689786a7e2f35446b5fcc5222ba23f6327b/mid-3.73-release-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

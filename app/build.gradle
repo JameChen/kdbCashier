@@ -1,0 +1,89 @@
+apply plugin: 'com.android.application'
+apply plugin: 'bugly'
+bugly {
+    appId = 'd62e9f4924'
+    appKey = 'bc5d640b-cfe6-40e1-b33d-7aedc9da12a5'
+}
+android {
+    compileSdkVersion 23
+    buildToolsVersion "25.0.1"
+    defaultConfig {
+        applicationId "com.yiku.kdb_flat"
+        minSdkVersion 17
+        targetSdkVersion 22
+        versionCode 1
+        //debug 0.0,0
+        //上次打包version 1.0.4
+        versionName "0.0.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            //设置支持的SO库架构
+            abiFilters 'armeabi', 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+        manifestPlaceholders = [
+                //A5WD1FL73IDB 属于应用"快点宝-平板"独有的 Android AppKey, 用于配置SDK
+                MTA_APPKEY : "A5WD1FL73IDB",
+                //标注应用推广渠道用以区分新用户来源，可填写如应用宝，豌豆荚等
+                MTA_CHANNEL: "线上"
+        ]
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false //删除无用资源
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def outputFile = output.outputFile
+                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                        // 输出apk名称为app_nahuo_v3.0_anzhi_sign.apk
+                        def fileName = "app_kdbcashier_v${defaultConfig.versionName}_release.apk"
+                        output.outputFile = new File(outputFile.parent, fileName)
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+dependencies {
+    compile project(':nahuolibrary')
+    compile project(':baserecyclerlibrary')
+    compile project(':banner')
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile files('libs/jcc-bate-0.7.3.jar')
+    compile files('libs/ksoap2-android-assembly-2.5.2-jar-with-dependencies.jar')
+
+    //MTA主包
+    //MID基础包
+
+
+    compile 'com.squareup.picasso:picasso:2.4.0'
+    compile 'de.greenrobot:eventbus:2.4.0'
+    compile 'com.google.code.findbugs:jsr305:2.0.1'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'io.reactivex.rxjava2:rxjava:2.0.5'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'com.squareup.retrofit2:retrofit:2.2.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.2.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava2:2.2.0'
+    compile 'com.squareup.okhttp3:okhttp:3.6.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+    compile 'com.orhanobut:logger:2.1.1'
+    compile 'com.github.bumptech.glide:glide:4.0.0-RC1'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.tencent.bugly:crashreport:latest.release'
+    compile 'com.qq.mta:mta:3.4.2'
+    compile 'com.tencent.mid:mid:3.73-release'
+    testCompile 'junit:junit:4.12'
+}

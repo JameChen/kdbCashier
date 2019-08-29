@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/item_cover"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="centerCrop" />
+
+
+        <TextView
+            android:id="@+id/item_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/item_text" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/line_bg"></View>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_detail_sizecolor_item_1"
+            style="@style/ware_house_detail_style"
+            android:text="颜色" />
+
+        <TextView
+            android:id="@+id/item_detail_sizecolor_item_2"
+            style="@style/ware_house_detail_style"
+            android:text="尺码" />
+
+        <TextView
+            android:id="@+id/item_detail_sizecolor_item_3"
+            style="@style/ware_house_detail_style"
+            android:text="库存数量" />
+
+        <TextView
+            android:id="@+id/item_detail_sizecolor_item_4"
+            style="@style/ware_house_detail_style"
+            android:layout_height="wrap_content"
+            android:text="盘点数量"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/item_detail_sizecolor_item_5"
+            style="@style/ware_house_detail_style"
+            android:text="盈亏"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/line_bg"></View>
+
+</LinearLayout>
+

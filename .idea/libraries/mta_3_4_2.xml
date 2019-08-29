@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="mta-3.4.2">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/bc3ac71acf8a086504486104fddd272b947492a1/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/bc3ac71acf8a086504486104fddd272b947492a1/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/bc3ac71acf8a086504486104fddd272b947492a1/output/jars/libs/mta-android-sdk-3.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.qq.mta/mta/3.4.2/4c660905530f087c32657069830ff650307807a9/mta-3.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

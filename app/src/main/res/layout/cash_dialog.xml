@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/x20"
+            android:paddingRight="@dimen/x20">
+
+
+            <TextView
+                android:id="@+id/tv_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/y20"
+                android:text="应收"
+                android:textColor="@color/kdb_black"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/tv_pos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y20"
+                android:gravity="center"
+                android:text="请确认POS机已成功扣款！"
+                android:textColor="@color/bg_red"
+                android:textSize="30sp"
+                android:visibility="gone" />
+            <LinearLayout
+                android:id="@+id/ll_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_money"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/y20"
+                    android:gravity="center|left"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="实收:"
+                        android:textColor="@color/kdb_black"
+                        android:textSize="30sp" />
+
+                    <EditText
+                        style="@style/edittext_one_style"
+                        android:id="@+id/et_txt"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/y30"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/x15"
+                        android:layout_marginRight="@dimen/x15"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dp"
+                        android:gravity="left|center"
+                        android:padding="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:singleLine="true"
+                        android:textColor="#606060"
+                        android:textColorHint="@color/kdb_black"
+                        android:cursorVisible="true"
+                        android:textCursorDrawable="@null"
+                        android:textSize="14sp"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/x15"
+                        android:text="找零:"
+                        android:textColor="@color/kdb_black"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/tv_chang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0.00"
+                        android:textColor="@color/kdb_black"
+                        android:textSize="30sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/l1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_2"
+                    android:layout_marginTop="@dimen/y20"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv01"
+                        style="@style/check_yuan_style"
+                        android:layout_weight="1"
+                        android:text="10元" />
+
+                    <TextView
+                        android:id="@+id/tv02"
+                        style="@style/check_yuan_style"
+                        android:text="20元" />
+
+                    <TextView
+                        android:id="@+id/tv03"
+                        style="@style/check_yuan_style"
+                        android:text="50元" />
+
+                    <TextView
+                        android:id="@+id/tv04"
+                        style="@style/check_yuan_style"
+                        android:text="100元" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/tv_settle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y30"
+                android:layout_below="@+id/l1"
+                android:layout_marginTop="@dimen/y20"
+                android:layout_marginBottom="@dimen/y20"
+                android:background="@drawable/btn_login_bg"
+                android:text="@string/settle_text"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/iv_del"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/del_pd_bg"
+            android:gravity="center"
+            android:text="×"
+            android:textColor="@color/bg_red"
+            android:textSize="30sp" />
+    </RelativeLayout>
+</LinearLayout>

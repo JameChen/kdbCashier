@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="shelter_bg">#89d4d3d6</color>
+    <color name="gray_01">#a3a2a2</color>
+    <color name="line_bg">#dcdcdc</color>
+    <color name="kdb_black">#161616</color>
+    <color name="kdb_gray_light">#d1d0d0</color>
+    <color name="kdb_blue">#1f75e6</color>
+    <color name="kdb_blue_light">#68a2ed</color>
+    <color name="kdb_gray">#b6b5b5</color>
+    <color name="kdb_red">#f23434</color>
+    <color name="colorPrimary">#f94c51</color>
+    <color name="colorPrimaryDark">#f94c51</color>
+    <color name="colorAccent">#f94c51</color>
+
+    <color name="order_item_txt">#ee000000</color>
+    <color name="item_text">#696969</color><!--暗灰色 -->
+    <color name="dimgray">#696969</color><!--暗灰色 -->
+    <color name="black90">#383431</color><!--黑色 -->
+    <color name="whitesmoke">#F5F5F5</color><!--烟白色 -->
+    <color name="color_c51">#f94c51</color>
+    <color name="color_f6">#f6f6f6</color>
+    <color name="trans">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="gray_4d">#4d4d4d</color>
+    <color name="text_red">#E03E3F</color>
+    <color name="bg_red">#f94c51</color>
+    <color name="main_shopshare_bg">#B3CE1D</color>
+    <color name="main_uploaditem_bg">#FB8472</color>
+    <color name="main_saleorder_bg">#6C5BEC</color>
+    <color name="main_shopmsg_bg">#DF4242</color>
+    <color name="main_nahuoorder_bg">#5BB0EC</color>
+    <color name="main_shoppreview_bg">#C672FB</color>
+    <color name="main_buyonline_bg">#46BC62</color>
+    <color name="main_more_bg">#ECAA5B</color>
+    <color name="guid_item_bg">#FFFFFF</color>
+    <color name="gray_btn_bg">#A2A2A2</color>
+    <color name="transparent">#00000000</color>
+    <color name="vendor_userid">#647399</color>
+    <color name="my_item_header_bg">#d7d7d7</color>
+
+    <color name="black_overlay">#B2000000</color>
+    <color name="none_color">#00000000</color>
+    <color name="bule_overlay">#B20D92DD</color>
+    <color name="hint">#B8B8B8</color>
+    <color name="light_blue">#6AB5EA</color>
+    
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+
+        <color name="common_bg">#fcfcfc</color>
+    <color name="divider_list">#cccccc</color>
+    
+    
+        <color name="btn_pressed_green_solid">#B6DA53</color>
+    <color name="btn_gray_pressed">#666667</color>
+   <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+    <color name="btn_logout_pressed">#DA5A4D</color>
+
+    
+    <color name="bg_item_detail">#F0EFF4</color>
+    <color name="item_detail_text">#605c5c</color>
+    <color name="orange1">#FF5000</color>
+
+    <color name="spec_blue">#89C4EA</color>
+	<color name="item_gray">#949494</color>
+    <color name="expand_blue">#7E88AD</color>
+	
+    <!-- 纯色图背景 -->
+    <color name="bg_rectangle_orange">#FF5000</color>
+    <color name="btn_accept">#31a1f7</color>
+    <color name="btn_bg_blue_small">#31a1f7</color>
+    <color name="btn_bg_gray">#DFDFDF</color>
+    <color name="btn_bg">#FF8200</color>
+    <color name="btn_select_bg">#FF8200</color>
+    <color name="btn_enabled_bg">#dcdcdc</color>
+    <color name="btn_ignore">#8E8D92</color>
+    <color name="gotoshop_bg_selected">#687E8C</color>
+    <color name="gotoshop_bg_unenabled">#687E8C</color>
+    <color name="gotoshop_bg">#687E8C</color>
+    <color name="login_bg">#F06527</color>
+    <color name="single_bg_selected">#E1E1E1</color>
+    <color name="title_bar_text_color">#FFFFFF</color>
+    <color name="bg_titlebar">#f7f7f7</color>
+    <color name="shop_cat_pop_text">#F3F3F3</color>
+    <color name="switch_btn_normal">#C60A1E</color>
+    <color name="switch_btn_checked">#FFFFFF</color>
+    <color name="switch_btn_stroke">#4A505B</color>
+    <color name="green_price">#60C774</color>
+    <color name="click_color">#cccccc</color>
+    <color name="black_38">#383838</color>
+    <color name="gray_92">#929292</color>
+    <!-- ActionBar字体颜色 -->
+    <color name="textColorPrimary">#424242</color>
+
+    <color name="bgcolor">#C60A1E</color>
+    <color name="top_bar_bg">#C60A1E</color>
+    <color name="bg">#f0eff4</color>
+    <color name="txt_blue">#586b95</color>
+    <color name="txt_gray">#9c9c9c</color>
+    <color name="txt_blue_post">#86c1f7</color>
+
+
+    <color name="clear">#00000000</color>
+    <color name="font_item_title_color">#333333</color>
+    <color name="font_item_content_color">#b0b0b0</color>
+
+    <!--select背景色-->
+    <color name="selected_bg_gray">#cfcfcf</color>
+</resources>

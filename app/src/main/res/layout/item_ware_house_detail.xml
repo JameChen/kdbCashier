@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_detail_sizecolor_item_1"
+            style="@style/ware_house_detail_style"
+            android:text="颜色" />
+
+        <TextView
+            android:id="@+id/item_detail_sizecolor_item_2"
+            style="@style/ware_house_detail_style"
+            android:text="尺码" />
+
+        <TextView
+            android:id="@+id/item_detail_sizecolor_item_3"
+            style="@style/ware_house_detail_style"
+            android:text="库存数量" />
+
+        <TextView
+            android:id="@+id/item_detail_sizecolor_item_4"
+            style="@style/ware_house_detail_style"
+            android:layout_height="wrap_content"
+            android:text="盘点数量" />
+
+        <TextView
+            android:id="@+id/item_detail_sizecolor_item_5"
+            style="@style/ware_house_detail_style"
+            android:text="盈亏" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/line_bg"></View>
+</RelativeLayout>

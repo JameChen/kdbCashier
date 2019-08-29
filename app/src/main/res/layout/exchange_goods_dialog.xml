@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/x15">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y20"
+                android:orientation="horizontal"
+                android:paddingRight="70dp">
+
+                <com.nahuo.library.controls.EditTextEx
+                    android:id="@+id/et_scan"
+                    style="@style/edittext_one_style"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/txt_clear_bg"
+                    android:gravity="left|center"
+                    android:hint="扫款式条码查找"
+                    android:imeOptions="actionDone"
+                    android:nextFocusDown="@id/et_search"
+                    android:nextFocusForward="@id/et_search"
+                    android:nextFocusLeft="@id/et_search"
+                    android:nextFocusRight="@id/et_search"
+                    android:nextFocusUp="@id/et_search"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/kdb_black"
+                    android:textColorHint="@color/kdb_gray"
+                    android:textCursorDrawable="@drawable/et_curor_color"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+                <com.nahuo.library.controls.EditTextEx
+                    android:id="@+id/et_order"
+                    style="@style/edittext_one_style"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/txt_clear_bg"
+                    android:gravity="left|center"
+                    android:hint="订单号关键字"
+                    android:imeOptions="actionDone"
+                    android:nextFocusDown="@id/et_search"
+                    android:nextFocusForward="@id/et_search"
+                    android:nextFocusLeft="@id/et_search"
+                    android:nextFocusRight="@id/et_search"
+                    android:nextFocusUp="@id/et_search"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/kdb_black"
+                    android:textColorHint="@color/kdb_gray"
+                    android:textCursorDrawable="@drawable/et_curor_color"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+                <com.nahuo.library.controls.EditTextEx
+                    android:id="@+id/et_sku"
+                    style="@style/edittext_one_style"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/txt_clear_bg"
+                    android:gravity="left|center"
+                    android:hint="款号关键字"
+                    android:imeOptions="actionDone"
+                    android:nextFocusDown="@id/et_search"
+                    android:nextFocusForward="@id/et_search"
+                    android:nextFocusLeft="@id/et_search"
+                    android:nextFocusRight="@id/et_search"
+                    android:nextFocusUp="@id/et_search"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/kdb_black"
+                    android:textColorHint="@color/kdb_gray"
+                    android:textCursorDrawable="@drawable/et_curor_color"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+                <com.nahuo.library.controls.EditTextEx
+                    android:id="@+id/et_mobile"
+                    style="@style/edittext_one_style"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/txt_clear_bg"
+                    android:gravity="left|center"
+                    android:hint="手机号关键字"
+                    android:imeOptions="actionDone"
+                    android:nextFocusDown="@id/et_search"
+                    android:nextFocusForward="@id/et_search"
+                    android:nextFocusLeft="@id/et_search"
+                    android:nextFocusRight="@id/et_search"
+                    android:nextFocusUp="@id/et_search"
+                    android:padding="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/kdb_black"
+                    android:textColorHint="@color/kdb_gray"
+                    android:textCursorDrawable="@drawable/et_curor_color"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tv_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bg_btn_gray"
+                    android:paddingLeft="@dimen/x15"
+                    android:paddingRight="@dimen/x15"
+                    android:gravity="center"
+                    android:text="查找"
+                    android:textColor="@color/kdb_black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y15"
+                android:background="@color/kdb_gray_light"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/y5"
+                android:paddingTop="@dimen/y5">
+
+                <TextView
+                    style="@style/item_txt_style"
+                    android:layout_weight="4"
+                    android:text="订单号/手机号/时间" />
+
+                <TextView
+                    style="@style/item_txt_style"
+                    android:layout_width="@dimen/x40"
+                    android:layout_marginRight="@dimen/x8"
+                    android:layout_marginLeft="@dimen/x8"
+                    android:text="商品" />
+
+                <TextView
+                    style="@style/item_txt_style"
+                    android:layout_weight="2"
+                    android:text="款号" />
+
+                <TextView
+                    style="@style/item_txt_style"
+                    android:layout_weight="1"
+                    android:text="颜色" />
+
+                <TextView
+                    style="@style/item_txt_style"
+                    android:layout_weight="1"
+                    android:text="尺码" />
+
+                <TextView
+                    style="@style/item_txt_style"
+                    android:layout_weight="1"
+                    android:text="数量" />
+
+                <TextView
+                    style="@style/item_txt_style"
+                    android:layout_weight="2"
+                    android:text="单价" />
+
+                <TextView
+                    style="@style/item_txt_style"
+                    android:layout_weight="2"
+                    android:layout_marginRight="@dimen/x5"
+                    android:layout_marginLeft="@dimen/x5"
+                    android:text="操作" />
+
+                <TextView
+                    style="@style/item_txt_style"
+                    android:layout_weight="1"
+                    android:text="" />
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:cacheColorHint="@android:color/transparent"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none"></android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/iv_del"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/del_pd_bg"
+            android:gravity="center"
+            android:text="×"
+            android:textColor="@color/bg_red"
+            android:textSize="30sp" />
+
+
+    </RelativeLayout>
+</LinearLayout>
